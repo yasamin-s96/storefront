@@ -1,0 +1,27 @@
+django
+django-debug-toolbar
+
+djangorestframework
+drf-nested-routers
+django-filter
+djoser
+djangorestframework-simplejwt
+pillow
+psycopg
+django-cors-headers
+django-templated-mail
+redis
+celery
+flower
+django-redis
+whitenoise
+gunicorn
+
+# Dev packages
+autopep8
+pytest
+pytest-django
+pytest-watch
+model-bakery
+locust
+django-silk

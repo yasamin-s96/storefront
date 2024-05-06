@@ -1,0 +1,9 @@
+/.pytest_cache/
+/.vscode/
+/__pycache__/
+/wsl-venv/
+
+*.pyc
+/media/
+/static/
+general.log
