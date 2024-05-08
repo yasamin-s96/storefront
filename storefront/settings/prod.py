@@ -5,7 +5,9 @@ DEBUG = False
 
 SECRET_KEY = os.environ["SECRET_KEY"]
 
-ALLOWED_HOSTS = ["buy.now-noorganizationnn-47235bf4.koyeb.app"]
+koyeb_host = os.environ["DJANGO_ALLOWED_HOSTS"]
+
+ALLOWED_HOSTS = [koyeb_host]
 
 DATABASES = {
     "default": {
